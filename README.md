@@ -26,5 +26,8 @@ https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/rel
 # License
 Multiprocessing for ffmpeg interpolation is under the MIT license.
 
+# About
+This software uses libraries from the FFmpeg project under the LGPLv2.1
+
 # Credits
 - ffmpeg
