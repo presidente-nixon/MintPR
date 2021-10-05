@@ -16,3 +16,6 @@ If you wanted to interpolate an hdr, mkv file to 100fps encoding with hevc using
 interpolation mkv hdr 1 100 hevc
 ```
 Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmpeg, but this is currently the best I can do and I will change that in the future if I can. Currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
+
+#Credits
+ffmpeg
