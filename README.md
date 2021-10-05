@@ -23,5 +23,8 @@ Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmp
 ## The latest version can found here
 https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/releases/tag/v0.3-alpha
 
+# License
+Multiprocessing for ffmpeg interpolation is under the MIT license.
+
 # Credits
 - ffmpeg
