@@ -1,3 +1,7 @@
+# Contributing
+
+## What you must provide
+
 When adding contributions to the application, you MUST;
 1. Create a description showing exactly what you have done to the program.
 2. Show what programming language you have done your changes in.
