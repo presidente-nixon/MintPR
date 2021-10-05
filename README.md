@@ -5,23 +5,23 @@ A motion interpolation application that adds multiprocessing to an ffmpeg option
 This ideo for this project came from when I discovered about AI upscaling algorithms because I was just sucha nerd, then going to motion algorithms, and thinking that I wanted to use motion interpolation algorithms on my youtube videos that I make on my youtube channel: https://www.youtube.com/channel/UCNUJ_KmDxx-NTxOZGSZbSBQ, however I found that although it produced pretty decent results, I thought that it was rather quite slow and since I had already learned some batch before, I thought that it would be a good ideo to try and integrate multiprocessing into the algorithm.
 
 # How to use it
-To use it, you must put your video in the input folder and use the following syntax: interpolation filetype dynamicrange instances interpolatedrate encoder.
+The syntax is: interpolation filetype dynamicrange inlocation instances interpolatedrate encoder outlocation.
 
-Interpolation is to initialize the program, filetype is the file format that the input videos are in, dynamicrange is the dynamicrange of the input videos, instances is how many different threads you want, interpolatedrate is what you want the output frame rate to be, and the encoder is what encoder you want.
+Interpolation is to initialize the program, filetype is the file format that the input videos are in, dynamicrange is the dynamicrange of the input videos, inlocation is the location of the input video file(it must be absolute and must direct to the folder that the video/videos is/are in), instances is how many different threads you want, interpolatedrate is what you want the output frame rate to be, encoder is what encoder you want, and outlocation is pretty much the same as the inlocation except it is for the ouput file.
 
 So for instance, if you wanted to interpolate an sdr, mp4 file to 60fps encoded with h264 using 2 threads, then you would type: 
 ```
-interpolation mp4 sdr 2 60 h264
+interpolation mp4 sdr "location" 2 60 h264 "location"
 ```
 If you wanted to interpolate an hdr, mkv file to 100fps encoding with hevc using 1 thread, then you would type:
 ```
-interpolation mkv hdr 1 100 hevc
+interpolation mkv hdr "location" 1 100 hevc "location"
 ```
 Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmpeg, but this is currently the best I can do and I will change that in the future if I can. Currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
 
 # Downloads
 ## The latest version can found here
-https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/releases/tag/v0.2-alpha
+https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/releases/tag/v0.3-alpha
 
 # Credits
 - ffmpeg
