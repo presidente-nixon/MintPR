@@ -19,5 +19,9 @@ interpolation mkv hdr 1 100 hevc
 ```
 Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmpeg, but this is currently the best I can do and I will change that in the future if I can. Currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
 
+# Downloads
+## The latest version can found here
+https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/releases/tag/v0.2-alpha
+
 # Credits
 - ffmpeg
