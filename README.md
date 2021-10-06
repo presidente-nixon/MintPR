@@ -1,10 +1,10 @@
 # Multiprocessing for FFmpeg Interpolation
 A motion interpolation application that adds multiprocessing to an ffmpeg option called minterpolate.
 
-# How it came about
+## How it came about
 This ideo for this project came from when I discovered about AI upscaling algorithms because I was just sucha nerd, then going to motion algorithms, and thinking that I wanted to use motion interpolation algorithms on my youtube videos that I make on my youtube channel: https://www.youtube.com/channel/UCNUJ_KmDxx-NTxOZGSZbSBQ, however I found that although it produced pretty decent results, I thought that it was rather quite slow and since I had already learned some batch before, I thought that it would be a good ideo to try and integrate multiprocessing into the algorithm.
 
-# How to use it
+## How to use it
 The syntax is: interpolation filetype dynamicrange inlocation instances interpolatedrate encoder outlocation.
 
 Interpolation is to initialize the program, filetype is the file format that the input videos are in, dynamicrange is the dynamicrange of the input videos, inlocation is the location of the input video file(it must be absolute and must direct to the folder that the video/videos is/are in), instances is how many different threads you want, interpolatedrate is what you want the output frame rate to be, encoder is what encoder you want, and outlocation is pretty much the same as the inlocation except it is for the ouput file.
@@ -19,15 +19,15 @@ interpolation mkv hdr "location" 1 100 hevc "location"
 ```
 Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmpeg, but this is currently the best I can do and I will change that in the future if I can. Currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax. Also just a side note, the video that you input must be at least 3 seconds long, small things, but just needed to be clear that if it doesn't work and your video is shorter than 3 seconds, now you know why, although this is technically a "bug", I am not able to fix it as it is on an ffmpeg level and also it doesn't really matter since it's just such a short video.
 
-# Downloads
-## The latest version can found here
+## Downloads
+### The latest version can found here
 https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.3-alpha
 
-# About
+## About
 This software uses libraries from the FFmpeg project under the LGPLv2.1.
-## License
+### License
 Multiprocessing for FFmpeg interpolation is under the MIT license.
-## Contributing
+### Contributing
 To contribute to the project you must create a pull request featuring your contributions, to learn more go to the contributing.md file.
-## Credits
+### Credits
 - FFmpeg
