@@ -21,7 +21,7 @@ Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmp
 
 # Downloads
 ## The latest version can found here
-https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/releases/tag/v0.3-alpha
+https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.3-alpha
 
 # About
 This software uses libraries from the FFmpeg project under the LGPLv2.1.
