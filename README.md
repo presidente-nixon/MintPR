@@ -1,4 +1,4 @@
-# Multiprocessing-for-ffmpeg-interpolation
+# Multiprocessing for FFmpeg Interpolation
 A motion interpolation application that adds multiprocessing to an ffmpeg option called minterpolate.
 
 # How it came about
