@@ -29,6 +29,5 @@ This software uses libraries from the FFmpeg project under the LGPLv2.1.
 Multiprocessing for FFmpeg interpolation is under the MIT license.
 ## Contributing
 To contribute to the project you must create a pull request featuring your contributions, to learn more go to the contributing.md file.
-
-# Credits
+## Credits
 - FFmpeg
