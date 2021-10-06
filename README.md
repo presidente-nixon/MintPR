@@ -21,7 +21,8 @@ Sorry for the scuffy, unpolished syntax that is put it simply, nothing like FFmp
 
 ## Downloads
 ### The latest version can found here
-https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.3-alpha
+https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.4-alpha
+You can get 2 versions, the normal version, and the unlocked version, the normal version locks how many instances you can have to 128 so that if you accidentally choose more than 128 instances, your computer doesn't fry up, and the unlocked version as you can proberly guess, unlocks how many instances you can have, this is mainly for people that are for some reason using server motherboards or cpus while running this program so there really should be no reason to do so.
 
 ## About
 This software uses libraries from the FFmpeg project under the LGPLv2.1.
