@@ -23,11 +23,12 @@ Sorry for the scuffy, unpolished syntax that is put it simply, nothing like ffmp
 ## The latest version can found here
 https://github.com/presidente-nixon/Multiprocessing-for-ffmpeg-interpolation/releases/tag/v0.3-alpha
 
-# License
-Multiprocessing for ffmpeg interpolation is under the MIT license.
-
 # About
-This software uses libraries from the FFmpeg project under the LGPLv2.1
+This software uses libraries from the FFmpeg project under the LGPLv2.1.
+## License
+Multiprocessing for ffmpeg interpolation is under the MIT license.
+## Contributing
+To contribute to the project you must create a pull request featuring your contributions, to learn more go to the contributing.md file.
 
 # Credits
 - ffmpeg
