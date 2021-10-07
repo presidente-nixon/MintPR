@@ -5,7 +5,7 @@ A motion interpolation application that adds multiprocessing to an FFmpeg option
 This idea for this project came from when I discovered about AI upscaling algorithms because I was just sucha nerd, then going to motion algorithms, and thinking that I wanted to use motion interpolation algorithms on my youtube videos that I make on my youtube channel: https://www.youtube.com/channel/UCNUJ_KmDxx-NTxOZGSZbSBQ, however I found that although it produced pretty decent results, I thought that it was rather quite slow and since I had already learned some batch before, I thought that it would be a good idea to try and integrate multiprocessing into the algorithm.
 
 ## How to use it
-The syntax is: `interpolation filetype dynamicrange inlocation instances interpolatedrate encoder outlocation.`
+The syntax is: `interpolation filetype dynamicrange inlocation instances interpolatedrate encoder outlocation`
 
 `interpolation` is to initialize the program, `filetype` is the file format that the input videos are in, `dynamicrange` is the dynamicrange of the input videos, `inlocation` is the location of the input video file(it must be absolute and must direct to the folder that the video/videos is/are in), `instances` is how many concurrent threads you want, `interpolatedrate` is what you want the output frame rate to be, `encoder` is what encoder you want, and `outlocation` is pretty much the same as the inlocation except it is for the ouput file.
 
