@@ -28,7 +28,7 @@ You can get 2 versions, the normal version, and the unlocked version, the normal
 ## About
 This software uses libraries from the FFmpeg project under the LGPLv2.1.
 ### License
-Multiprocessing for FFmpeg interpolation is under the MIT license. Just be 100% clear,I am only **14 years old** at the time of writing this and **I am no where near to being a lawyer**, so if the MIT license conflicts with the LGPLv2.1 license of FFmpeg, please let me know, hopefully though if it does, it doesn't grab to much attention to FFmpeg since I am not selling this "product" for money.
+Multiprocessing for FFmpeg interpolation is under the MIT license. Just be 100% clear, **I am 14 years old** at the time of writing this and **I am no where near to being a lawyer**, so if the MIT license conflicts with the LGPLv2.1 license of FFmpeg, please let me know, hopefully though if it does, it doesn't grab to much attention to FFmpeg since I am not selling this "product" for money.
 ### Contributing
 To contribute to the project you must create a pull request featuring your contributions, to learn more go to the contributing.md file.
 ### Credits
