@@ -2,7 +2,7 @@
 A motion interpolation application that adds multiprocessing to an FFmpeg option called minterpolate.
 
 ## How it came about
-This ideo for this project came from when I discovered about AI upscaling algorithms because I was just sucha nerd, then going to motion algorithms, and thinking that I wanted to use motion interpolation algorithms on my youtube videos that I make on my youtube channel: https://www.youtube.com/channel/UCNUJ_KmDxx-NTxOZGSZbSBQ, however I found that although it produced pretty decent results, I thought that it was rather quite slow and since I had already learned some batch before, I thought that it would be a good idea to try and integrate multiprocessing into the algorithm.
+This idea for this project came from when I discovered about AI upscaling algorithms because I was just sucha nerd, then going to motion algorithms, and thinking that I wanted to use motion interpolation algorithms on my youtube videos that I make on my youtube channel: https://www.youtube.com/channel/UCNUJ_KmDxx-NTxOZGSZbSBQ, however I found that although it produced pretty decent results, I thought that it was rather quite slow and since I had already learned some batch before, I thought that it would be a good idea to try and integrate multiprocessing into the algorithm.
 
 ## How to use it
 The syntax is: `interpolation filetype dynamicrange inlocation instances interpolatedrate encoder outlocation.`
@@ -17,13 +17,15 @@ If you wanted to interpolate an hdr, mkv file to 100fps encoding with hevc using
 ```
 interpolation mkv hdr "location" 1 100 hevc "location"
 ```
-Sorry for the scuffy, unpolished syntax that is put it simply, nothing like FFmpeg, but this is currently the best I can do and I will change that in the future if I can. Currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax. Also just a side note, the video that you input must be at least 3 seconds long, small things, but just needed to be clear that if it doesn't work and your video is shorter than 3 seconds, now you know why, although this is technically a "bug", I am not able to fix it as it is on an ffmpeg level and also it doesn't really matter since it's just such a short video.
+Sorry for the scuffy, unpolished syntax that is put it simply, nothing like FFmpeg, but this is currently the best I can do and I will change that in the future if I can which is why currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
+
+Just a side note, the video that you input must be at least 3 seconds long, small things, but just needed to be clear that if it doesn't work and your video is shorter than 3 seconds, now you know why, although this is technically a "bug", I am not able to fix it as it is on an ffmpeg level and also it doesn't really matter since it's just such a short video.
 
 ## Downloads
 ### The latest version can found here
 https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.4-alpha
 
-You can get 2 versions, the normal version, and the unlocked version, the normal version locks how many instances you can have to 128 so that if you accidentally choose more than 128 instances, your computer doesn't fry up, and the unlocked version as you can proberly guess, unlocks how many instances you can have, this is mainly for people that are for some reason using server motherboards or cpus while running this program so there really should be no reason to do so.
+You can get 2 versions, the normal version, and the unlocked version, the normal version locks how many instances you can have to 128 so that if you accidentally choose more than 128 instances, your computer doesn't fry up, and the unlocked version as you can probably guess, unlocks how many instances you can have, this is mainly for people that are for some reason using server motherboards or cpus while running this program so there really should be no reason to do so.
 
 ## About
 This software uses libraries from the FFmpeg project under the LGPLv2.1.
