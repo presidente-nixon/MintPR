@@ -22,7 +22,6 @@ If you wanted to interpolate an hdr, mkv file to 100fps encoding with hevc using
 ```
 interpolation mkv hdr "location" 1 100 hevc "location"
 ```
-
 ## Downloads
 ### The latest version can found here
 https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.4-alpha
