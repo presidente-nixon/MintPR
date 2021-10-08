@@ -9,9 +9,9 @@ The syntax is: `interpolation filetype dynamicrange inlocation instances interpo
 
 `interpolation` is to initialize the program, `filetype` is the file format that the input videos are in, `dynamicrange` is the dynamic range of the input videos, `inlocation` is the location of the input video file(it MUST be absolute and must direct to the folder that the video/videos is/are in), `instances` is how many concurrent threads you want, `interpolatedrate` is what you want the output frame rate to be, `encoder` is what encoder you want, and `outlocation` is pretty much the same as the inlocation except it is for the ouput file. To learn more click [here](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki/All-The-Commands).
 
-Sorry for the scuffy, unpolished syntax that is put it simply, nothing like [FFmpeg](https://www.ffmpeg.org/), but this is currently the best I can do and I will change that in the future if I can which is why currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
+Sorry for the scuffy, unpolished syntax that is put it simply, nothing like FFmpeg, but this is currently the best I can do and I will change that in the future if I can which is why currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
 
-Just a side note, the video that you input must be at least 3 seconds long, small things, but just needed to be clear that if it doesn't work and your video is shorter than 3 seconds, now you know why, although this is technically a "bug", I am not able to fix it as it is on an [FFmpeg](https://www.ffmpeg.org/) level and also it doesn't really matter since it's just such a short video.
+Just a side note, the video that you input must be at least 3 seconds long, small things, but just needed to be clear that if it doesn't work and your video is shorter than 3 seconds, now you know why, although this is technically a "bug", I am not able to fix it as it is on an FFmpeg level and also it doesn't really matter since it's just such a short video.
 
 ### Examples
 So for instance, if you wanted to interpolate an sdr, mp4 file to 60fps encoded with h264 using 2 threads, then you would type: 
@@ -31,7 +31,7 @@ You can get 2 versions, the normal version, and the unlocked version, the normal
 ## About
 This software uses libraries from the [FFmpeg](https://www.ffmpeg.org/) project under the LGPLv2.1.
 ### License
-Multiprocessing for FFmpeg interpolation is under the MIT license. Just be 100% clear, **I am 14 years old** at the time of writing this and **I am no where near to being a lawyer**, so if the MIT license conflicts with the LGPLv2.1 license of [FFmpeg](https://www.ffmpeg.org/), please let me know, hopefully though if it does, it doesn't grab to much attention to [FFmpeg](https://www.ffmpeg.org/) since I am not selling this "product" for money.
+Multiprocessing for FFmpeg interpolation is under the MIT license. Just be 100% clear, **I am 14 years old** at the time of writing this and **I am no where near to being a lawyer**, so if the MIT license conflicts with the LGPLv2.1 license of FFmpeg, please let me know, hopefully though if it does, it doesn't grab to much attention to FFmpeg since I am not selling this "product" for money.
 ### Contributing
 To contribute to the project you must create a pull request featuring your contributions, to learn more, click [here](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/blob/main/CONTRIBUTING.md) or go to contributing.md.
 ### Credits
