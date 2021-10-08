@@ -36,7 +36,6 @@ If you still have absolutely no idea how to use the commands in this program, yo
 ### [How The Program Works](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki/How-The-Program-Works)
 Your interested in the nitty gritty are you? Well great, because I have just the site for you!
 
----
 ## License
 Multiprocessing for FFmpeg interpolation is under the MIT license. Just be 100% clear, **I am 14 years old** at the time of writing this and **I am no where near to being a lawyer**, so if the MIT license conflicts with the LGPLv2.1 license of FFmpeg, please let me know, hopefully though if it does, it doesn't grab to much attention to FFmpeg since I am not selling this "product" for money.
 ## Contributing
