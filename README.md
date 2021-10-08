@@ -11,8 +11,6 @@ The syntax is: `interpolation filetype dynamicrange inlocation instances interpo
 
 Sorry for the scuffy, unpolished syntax that is put it simply, nothing like FFmpeg, but this is currently the best I can do and I will change that in the future if I can which is why currently, there are 2 main things on the todo list, a supsending sessions feature, and a more usable syntax.
 
-Just a side note, the video that you input must be at least 3 seconds long, small things, but just needed to be clear that if it doesn't work and your video is shorter than 3 seconds, now you know why, although this is technically a "bug", I am not able to fix it as it is on an ffmpeg level and also it doesn't really matter since it's just such a short video.
-
 ### Examples
 So for instance, if you wanted to interpolate an sdr, mp4 file to 60fps encoded with h264 using 2 threads, then you would type: 
 ```
