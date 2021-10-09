@@ -27,7 +27,7 @@ interpolation mkv hdr "location" 1 100 hevc "location"
 ### The latest version can found here
 https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/releases/tag/v0.6-alpha
 
-You can get 2 versions, the normal version, and the unlocked version, the normal version locks how many instances you can have to 8 so that if you accidentally choose more than 8 instances, your computer doesn't fry up, and the unlocked version as you can probably guess, unlocks how many instances you can have, this is mainly for people that are for some reason using server motherboards or cpus while running this program so there really should be no reason to do so.
+You can get 2 versions, the normal version, and the unlocked version, the normal version locks how many instances you can have to 8 so that if you accidentally choose more than 8 instances, your computer doesn't fry up, and the unlocked version as you can probably guess, unlocks how many instances you can have, this is mainly for people that really want fast interpolating and also have cpus with at least 6 cores.
 
 ## Documentations
 ### [Multiprocessing for FFmpeg Interpolation Wiki](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki)
