@@ -34,6 +34,10 @@ You can get 2 versions, the normal version, and the unlocked version, the normal
 If you have more questions or just want to learn more about the program, go to this page.
 ### [All The Commands](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki/All-The-Commands)
 If you still have absolutely no idea how to use the commands in this program, you can go to this very informative website.
+### [Architecture](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki/Architecture)
+This is a detailed explaination on what all of the different files do.
+### [Developing The Program](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki/Developing-The-Program)
+If you want to develop and change the program, this is a quick, short and easy tutorial to teach you how.
 ### [How The Program Works](https://github.com/presidente-nixon/Multiprocessing-for-FFmpeg-Interpolation/wiki/How-The-Program-Works)
 Your interested in the nitty gritty are you? Well great, because I have just the site for you!
 
