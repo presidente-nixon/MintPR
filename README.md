@@ -1,4 +1,4 @@
-# Multiprocessing for FFmpeg Interpolation
+# Mint mpr
 A motion interpolation application that adds multiprocessing to an FFmpeg option called minterpolate.
 
 ## How it came about
