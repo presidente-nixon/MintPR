@@ -25,7 +25,7 @@ mintpr mkv hdr "location" 1 100 hevc "location"
 ```
 ## Downloads
 ### The latest version can found here
-https://github.com/presidente-nixon/MintPR/releases/tag/v0.6-alpha
+https://github.com/presidente-nixon/MintPR/releases/tag/v0.7-alpha
 
 You can get 2 versions, the normal version, and the unlocked version, the normal version locks how many instances you can have to 8 so that if you accidentally choose more than 8 instances, your computer doesn't fry up, and the unlocked version as you can probably guess, unlocks how many instances you can have, this is mainly for people that really want fast interpolating and also have cpus with at least 6 cores.
 
